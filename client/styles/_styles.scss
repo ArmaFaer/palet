@@ -1,0 +1,99 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #eaebd5;
+}
+.mainContainer {
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.artImage {
+  border-radius: 10px;
+  box-shadow: 0 0 10px #7a6d3e;
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  
+}
+
+.navBar {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #a69868;
+  box-shadow: 0 0 10px #7a6d3e;
+  padding: 20px;
+  .logo {
+    font-size: 30px;
+    color: #eaebd5;
+    margin-right: 15px;
+  }
+}
+
+.nav-link button {
+  font-size: 15px;
+  border-radius: 5px;
+  color: #85784d;
+  background-color: #eaebd5;
+  margin: 0px 10px;
+  padding: 5px;
+  border: none;
+}
+
+.postContainer {
+  padding-top: 100px;
+  margin-left: 25px;
+  .artistImage {
+    height: 300px;
+    margin-bottom: 25px;
+  }
+  .materialContainer {
+    margin: 10px 0;
+    padding: 10px;
+    background-color:#ccc19f;
+    width: 290px;
+  }
+  .postInfo {
+    margin: 10px 0;
+  }
+  a {
+    background: none;
+    border: none;
+    text-decoration: none;
+  }
+  a :hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+.createPostContainer {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding-top: 100px;
+  align-items: center;
+}
+
+.createPostContainer form {
+  margin: 10px;
+}
+
+.createPostContainer input[type="submit"] {
+  font-size: 13px;
+  border-radius: 5px;
+  background-color: #85784d;
+  color: #eaebd5;
+  margin: 10px 0px;
+  padding: 5px;
+  border: none;
+}

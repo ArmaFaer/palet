@@ -9,10 +9,11 @@ class NavBar extends Component {
 
   render() {
     return (
-      <Fragment>
-        <Link className='nav-link' to="/"><button className='logo'>Home</button></Link>
-        <Link className='nav-link-2' to="/createPost"><button className='createPost'>Create Post</button></Link>
-      </Fragment >
+      <div className="navBar">
+        <span className="logo">PALET</span>
+        <Link className='nav-link' to="/"><button className='home'>Home</button></Link>
+        <Link className='nav-link' to="/createPost"><button className='createPost'>Create Post</button></Link>
+      </div >
     )
   }
 }

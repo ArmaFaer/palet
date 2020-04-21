@@ -22,6 +22,7 @@ const Home = () => {
   }, []);
 
   return (
+    //render images on home page
     <div>
       <div className='mainContainer'>
         {mainData.map((item, index) => (
